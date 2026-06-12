@@ -4,47 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Coffee Roasters - Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-       rel="stylesheet"
-     />
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      rel="stylesheet"
+    />
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<header>
-    <h1>Coffee Roasters</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="roast.html">Roast Levels</a></li>
-            <li><a href="beans.html">Coffee Beans</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</header>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ff6b00;">
+  <a class="navbar-brand text-white" href="#">Coffee Roasters</a>
 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="container">
-    <h2>Welcome to Coffee Roasters</h2>
-    <p>Your home for ethically sourced, locally roasted coffee.</p>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="roast.html">Roast Levels</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="beans.html">Coffee Beans</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="about.html">About Us</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="contactus.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <img src="Coffee Roasters.jpg" alt="Coffee Roasters" class="small-image">
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>Welcome to Coffee Roasters</h2>
+      <p>Your home for ethically sourced, locally roasted coffee.</p>
 
-    <h3>Discover Our Coffee</h3>
-    <p>Explore our range of roast levels and premium beans sourced from around the world.</p>
+      <img src="Coffee Roasters.jpg" alt="Coffee Roasters" class="small-image my-3">
 
-    <div class="button-group">
-    <a href="My Coffee Roasters Draft 2 Roasts.html" class="form-button">View Roast Levels</a>
-    <a href="My Coffee Roasters Draft 2 Beans.html" class="form-button">Browse Coffee Beans</a>
+      <h3>Discover Our Coffee</h3>
+      <p>Explore our range of roast levels and premium beans sourced from around the world.</p>
+
+      <div class="mt-4">
+        <a href="My Coffee Roasters Draft 2 Roasts.html" class="form-button">View Roast Levels</a>
+        <a href="My Coffee Roasters Draft 2 Beans.html" class="form-button">Browse Coffee Beans</a>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
 
-<footer>
-    <p>&copy; 2026 Coffee Roasters. All rights reserved.</p>
+<footer class="text-center py-3 mt-5" style="background:#f5f1e8;">
+  <p>&copy; 2026 Coffee Roasters. All rights reserved.</p>
 </footer>
 
 </body>
