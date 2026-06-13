@@ -4,61 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <title>Coffee Roasters - Coffee Beans</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<header>
+<nav class="navbar navbar-expand-lg navbar-light" style="background: #ff6b00;">
+  <a class="navbar-brand text-white" href="#">Coffee Roasters</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="roast.html">Roast Levels</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="beans.html">Coffee Beans</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="about.html">About Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="contactus.html">Contact Us</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<header class="text-center py-4" style="background: #ff6b00; color: var(--main-bg);">
     <h1>Coffee Beans</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="roast.html">Roast Levels</a></li>
-            <li><a href="beans.html">Coffee Beans</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-    </nav>
 </header>
 
-<div class="container my-4">
-    <div class="row">
+<div class="container my-5">
+  <div class="row">
 
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="card p-3 h-100">
-                <h2>Arabica</h2>
-                <p>Sweet, soft taste with hints of fruit and sugar.</p>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="card p-3 h-100">
-                <h2>Robusta</h2>
-                <p>Stronger, bolder flavour with higher caffeine content.</p>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="card p-3 h-100">
-                <h2>Liberica</h2>
-                <p>Unique floral aroma with bold, smoky notes.</p>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="card p-3 h-100">
-                <h2>Excelsa</h2>
-                <p>Tart, fruity profile often used in blends.</p>
-            </div>
-        </div>
-
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card p-3 h-100">
+        <h2 class="h5">Arabica</h2>
+        <p>Sweet, soft taste with hints of fruit and sugar.</p>
+      </div>
     </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card p-3 h-100">
+        <h2 class="h5">Robusta</h2>
+        <p>Stronger, bolder flavour with higher caffeine content.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card p-3 h-100">
+        <h2 class="h5">Liberica</h2>
+        <p>Unique floral aroma with bold, smoky notes.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card p-3 h-100">
+        <h2 class="h5">Excelsa</h2>
+        <p>Tart, fruity profile often used in blends.</p>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<footer>
-    <p>&copy; 2026 Coffee Roasters. All rights reserved.</p>
+<footer class="text-center py-3 bg-light">
+  <p>&copy; 2026 Coffee Roasters. All rights reserved.</p>
 </footer>
 
 </body>
